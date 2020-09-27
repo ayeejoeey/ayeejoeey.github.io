@@ -1,11 +1,11 @@
 # Site settings
 author: Joe Sanchez
-title: 
+title: Approaching my Mod 1 Final Project
 header-img: img/home-bg.png
 email: joe.987352@gmail.com
 copyright_name: Joe Sanchez
 description: > # this means to ignore newlines until "baseurl:"
-  
+  The first of many blogs for data science
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  ayeejoeey
