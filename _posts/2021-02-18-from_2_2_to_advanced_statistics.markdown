@@ -77,5 +77,9 @@ sns.set_theme(font_scale=1)
 sns.barplot(df_correlation['correlation'],df_correlation['predictors'])
 ```
 
+![](https://imgur.com/NTdQKDW)
+
+This vizualization was my favorite one out of the whole project! I'm happy to share my work and I hope this is useful for someone else! Thank you for taking the time to read this blog post! Until next time.
+
 
 
