@@ -56,7 +56,26 @@ df_correlation = pd.DataFrame(sorted(correlation_dict.items(),key=lambda x:x[1],
 df_correlation
 ```
 
-![](https://i.imgur.com/edWkHnS.png)
+
+![](<a href="https://imgur.com/edWkHnS"><img src="https://i.imgur.com/edWkHnS.png" title="source: imgur.com" /></a>)
+
+```
+# Generate a simple barplot from seaborn using the df_correlation['correlation'] as x 
+# and ['predictors'] as y
+
+fig, ax = plt.subplots(figsize=(13,8))
+
+plt.xticks(np.arange(-1,1,.05))
+plt.yticks(size=15)
+
+plt.title("Predictors in Correlation to Price", size=20)
+plt.xlabel("Correlation", size=20)
+plt.ylabel("Predictors", size =20)
+
+
+sns.set_theme(font_scale=1)
+sns.barplot(df_correlation['correlation'],df_correlation['predictors'])
+```
 
 
 
