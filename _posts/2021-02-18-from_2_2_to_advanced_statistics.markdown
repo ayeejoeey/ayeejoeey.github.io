@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "From 2+2 to Advanced Statistics"
-date:       2021-02-18 23:22:56 +0000
+date:       2021-02-18 18:22:58 -0500
 permalink:  from_2_2_to_advanced_statistics
 ---
 
@@ -56,6 +56,6 @@ df_correlation = pd.DataFrame(sorted(correlation_dict.items(),key=lambda x:x[1],
 df_correlation
 ```
 
-![](http://Screen Shot 2021-02-18 at 3.21.30 PM.png)
+![](https://i.imgur.com/edWkHnS.png)
 
 
